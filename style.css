@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    max-height: 700px;
+    margin: 90px auto 160px;
+    opacity: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.header {
+    margin-bottom: 100px;
+    color: white;
+}
+
+.givenValues {
+    width: 48%;
+    height: 500px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.icon {
+    width: 4%;
+    background: rgba(0, 0, 0, 0);
+    margin: 190px auto;
+}
+
+.outputValues {
+    width: 48%;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.material-icons {
+    color: white;
+    font-size: 55px;
+}
+
+textarea {
+    resize: none;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.translatedTxt {
+    height: 100%;
+    width: 100%;
+    max-height: 450px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+    overflow-y: scroll;
+}
